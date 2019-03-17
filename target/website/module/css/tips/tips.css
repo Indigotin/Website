@@ -1,0 +1,79 @@
+.tips {
+	position: absolute;
+	overflow: hidden;
+	position: absolute;
+	right:0px;
+	bottom:0px;
+	width: 0px;
+	height: 0px;
+	background: #79cdf4;
+	color: #fff;
+	text-align: center;
+	transform-origin: center;
+	transition: width 1s, height 1s;
+	-moz-transition: width 1s, height 1s, -moz-transform 1s;
+	/* Firefox 4 */
+	-webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+	/* Safari and Chrome */
+	-o-transition: width 1s, height 1s, -o-transform 1s; /* Opera */
+}
+
+.show {
+	width: 370px;
+	height: 75px;
+}
+
+.hidden {
+	position: absolute;
+	width: 370px;
+	height: 75px;
+	background: #79cdf4;
+	color: #fff;
+	text-align: center;
+	transform-origin: center;
+	transition: width 1s, height 1s;
+	-moz-transition: width 1s, height 1s, -moz-transform 1s;
+	/* Firefox 4 */
+	-webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+	/* Safari and Chrome */
+	-o-transition: width 1s, height 1s, -o-transform 1s; /* Opera */
+}
+
+.hidden1 {
+	width: 0px;
+	height: 0px;
+}
+
+.click {
+	clear: both;
+	background: #d07def;
+	width: 0px;
+	height: 5px;
+	transform-origin: center;
+	transition: width 3s;
+	-moz-transition: width 3s; /* Firefox 4 */
+	-webkit-transition: width 3s; /* Safari and Chrome */
+	-o-transition: width 3s; /* Opera */
+}
+
+.change {
+	width: 370px;
+}
+
+.tipsimg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 5px 0px 0px 5px;
+	width: 60px;
+	height: 60px;
+}
+
+.message {
+	width: 290px;
+	height: 70px;
+	float: right;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 70px;
+}

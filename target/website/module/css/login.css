@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+body,input,p,li,b,img{margin:0px; padding:0px;vertical-align: middle;}
+form,ul,li,ol{margin:0;padding:0;list-style:none;}
+.clearfloat {clear:both;}
+
+body
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.main
+{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	z-index: -999;
+	position:fixed; 
+}
+
+.sysname
+{
+	position: absolute;
+    top: 240px;
+    color: #fff;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    width: 100%;
+    letter-spacing:10px;
+}
+
+.background
+{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.loginForm
+{
+	position: relative;
+/*	background: #fff;*/
+	width: 724px;
+	height: 420px;
+}
+
+.rotate_right
+{
+	/* -ms-transform:rotate(-3deg); IE 9
+	-moz-transform:rotate(-3deg); Firefox
+	-webkit-transform:rotate(-3deg); Safari and Chrome
+	-o-transform:rotate(-3deg); Opera
+	transform:rotate(-3deg); */
+}
+
+.imgDiv
+{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.imgDiv img
+{
+	margin: 26px 36px 35px 26px;
+}
+
+.right
+{
+	width: 100%;
+	height: 100%;
+	padding-top: 26px;
+	float: right;
+}
+
+.title
+{
+	width: 100%;
+	height: 75px;
+	position: relative;
+}
+
+.title span
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-family: "宋体";
+	font-size: 22px;
+	color:#ececec;
+	line-height: 75px;
+	text-align: center;
+}
+
+.title img
+{
+	position: absolute;
+	top: 75px;
+	left: -100px;
+}
+
+.form
+{
+	padding-top: 15px;
+}
+
+.item
+{
+	margin-bottom: 30px;
+	line-height: 100%;
+	width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item input
+{
+	margin-left: 5px;
+	width: 450px;
+	height: 50px;
+	line-height: 50px;
+	font-family: "宋体";
+	font-size: 16px;
+	color: #999999;
+	border: 1px #cecece solid;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+.operate
+{
+	margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    height: 20px;
+    width: fit-content;
+}
+
+.operate input
+{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.operate span
+{
+	display: inline-block;
+	font-family: "宋体";
+	font-size: 16px;
+	color: #999999;
+	line-height: 20px;
+}
+
+.operate a
+{
+	display: inline-block;
+	font-family: "宋体";
+	font-size: 16px;
+	color: #999999;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.button
+{
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	background: #2b4263;
+	width: 380px;
+	height: 50px;
+	font-size: 16px;
+	font-family: "宋体";
+	color: #fff;
+	border-radius: 5px;
+	display:block;
+}
+
+.button:hover
+{
+	background: #44526f;
+}
+
+.shake_effect
+{
+	-webkit-animation-name: shake;
+	animation-name: shake;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+@-webkit-keyframes shake
+{
+	from, to
+	{
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	 10%, 30%, 50%, 70%, 90%
+	 {
+		-webkit-transform: translate3d(-10px, 0, 0);
+		transform: translate3d(-10px, 0, 0);
+	 }
+
+	 20%, 40%, 60%, 80%
+	 {
+		-webkit-transform: translate3d(10px, 0, 0);
+		transform: translate3d(10px, 0, 0);
+	}
+}
+
+@keyframes shake 
+{
+	from, to 
+	{
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	 }
+
+	10%, 30%, 50%, 70%, 90% 
+	{
+		-webkit-transform: translate3d(-10px, 0, 0);
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	20%, 40%, 60%, 80% 
+	{
+		-webkit-transform: translate3d(10px, 0, 0);
+		transform: translate3d(10px, 0, 0);
+	}
+}

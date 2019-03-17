@@ -1,0 +1,479 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size:12px;
+    font-family:"宋体";
+    color:#333;
+	margin:0px auto;
+	padding:inherit;
+}
+/**单个中文导航部分*/
+.allTitleChinese{
+	font-size:16px;
+	font-family:"微软雅黑";
+	color:#010101;
+}
+
+.allTitleEnglish{
+	font-size:11px;
+	font-family:"Microsoft Sans serif";
+	color:#8d8888;
+}
+
+/**整体*/
+.midContent {
+   width:960px;
+   margin:0 auto;
+   background-color:#f4f8fc;
+   
+}
+
+/**超链接调用*/
+.midContent a{
+	text-decoration:none;
+}
+
+/**上部分整体：包括左右*/
+.midHead {
+   width:100%;
+   height:242px;
+}
+/**中*/
+.midMid {
+   width:100%;
+   height:242px;
+	
+}
+/**下：轮播*/
+.midFoot{
+	width:100%;
+    height:242px;
+}
+
+/**友情链接*/
+.friendShipConnection {
+	width:100%;
+	height:50px;
+}
+/** 课程介绍 底板*/
+.midHeadLeft{
+	width:60%;
+	height:100%;
+	float:left;
+}
+/**课程负责人 底板*/
+.midHeadRight{
+	width:40%;
+	height:100%;
+    float:left;
+}
+/**分割线*/
+.midHeadHr{
+    background:#d7d4d4;
+    height:1px;
+	position:relative;
+	top:10px;
+	left:0px;
+	width:100%;
+	
+}
+/**课程介绍 整体*/
+.subjectIntroduce{
+	position:relative;
+	top:12px;
+	left:12px;
+	width:550px;
+	height:225px;
+}
+/**课程介绍 标题介绍*/
+.titleIntroduce{
+	position:relative;
+	left:5px;
+	top:0px;
+	width:169px;
+	height:19px;
+	line-height:18px;
+}
+/**课程介绍 内容介绍*/
+.contentIntroduce{
+	position:relative;
+	left:0px;
+	top:20px;
+	width:100%;
+	height:190px;
+}
+/**内容：课程介绍 图片*/
+.contentIntroduceLeft{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:169px; 
+	height:164px;
+	float:left;
+}
+/**内容：课程介绍 文字*/
+.contentIntroduceRight{
+    position:relative;
+	right:0px;
+	top:0px;
+	width:371px; 
+	height:164px;
+	float:left;
+	line-height:15px;
+	padding-left:10px;
+}
+/**课程负责人 整体*/
+.subjectPrincipal{
+	position:relative;
+	top:12px;
+	left:12px;
+	width:360px;
+	height:225px;
+}
+/**课程负责人 标题*/
+.titlePrincipal{
+	position:relative;
+	left:5px;
+	top:0px;
+	width:169px;
+	height:19px;
+	line-height:18px;
+}
+/**课程负责人 内容*/
+.contentPrincipal{
+	position:relative;
+	left:0px;
+	top:20px;
+	width:100%;
+	height:190px;
+}
+/**课程负责人：左 图片*/
+.contentPrincipalLeft{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:131px; 
+	height:164px;
+	float:left;
+}
+/**课程负责人：右 文字*/
+.contentPrincipalRight{
+    position:relative;
+	right:0px;
+	top:0px;
+	width:219px; 
+	height:164px;
+	float:left;
+	line-height:15px;
+	padding-left:10px;
+}
+
+/**课程动态 底板*/
+.midMidLeft{
+	width:60%;
+	height:100%;
+	float:left;
+	
+}
+/**教学资源 底板*/
+.midMidRight{
+	width:40%;
+	height:100%;
+	float:left;
+}
+/**课程动态 整体*/
+.subjectTrends{
+	position:relative;
+	top:0px;
+	left:8px;
+	width:555px;
+	height:219px;
+}
+/**课程动态 左边竖条背景*/
+.subjectTrendsLeft {
+	background-image:url(images/frame_bg_left.png);
+	width:26px;
+	height:219px;
+	background-repeat:no-repeat;
+    float:left;
+}
+/**课程动态 中间内容*/
+.subjectTrendsMid {
+	background-image:url(images/frame_bg_mid.png);
+	width:503px;
+	height:219px;
+    background-repeat:repeat-x;
+	float:left;
+}
+/**课程动态 右边竖条背景*/
+.subjectTrendsRight {
+	background-image:url(images/frame_bg_right.png);
+	width:26px;
+	height:219px;
+	background-repeat:no-repeat;
+	float:left;
+
+}
+/**课程动态 中间内容的标题*/
+.titleTrendsMid{
+	position:relative;
+	top:12px;
+	left:-14px;
+
+}
+/**课程动态 中间内容的图标*/
+.moreImg{
+	position:relative;
+	top:0px;
+	left:350px;
+	width:31px;
+	height:7px;
+	
+}
+.midContent img {
+	border-width:0px;
+}
+/**课程动态 中间列表具体内容*/
+.contentTrendsMid{
+	position:relative;
+	top:15px;
+	left:-15px;
+	width:530px;
+	height:169px;
+	overflow:hidden;
+
+}
+
+.contentTrendsMid ul{
+	position:relative;
+	margin-top:0px;
+	left:-37px;
+	line-height:15px;
+	list-style:none;
+}
+
+.contentTrendsMid ul li{
+    margin-top:5px;
+}
+
+.contentTrendsMid ul li a {
+    text-decoration:none;
+	font-size:12px;
+    font-family:"宋体";
+    color:#333;
+}
+
+.contentTrendsMid ul li a:hover {
+	color:#ff000;
+	text-decoration:underline;
+}
+
+/**显示时间*/
+.time {
+    position:relative;
+	left:210px;
+	
+}
+
+.midMidHr{
+	background:#d7d4d4;
+    height:1px;
+	position:relative;
+	top:18px;
+	width:532px;
+	left:-16px;
+	
+}
+
+/**教学资源*/
+.studySource{
+	position:relative;
+	top:0px;
+	left:8px;
+	width:375px;
+	height:219px;
+}
+
+/**教学资源 左 底板*/
+.studySourceLeft {
+	background-image:url(images/frame_bg_left.png);
+	width:26px;
+	height:219px;
+	background-repeat:no-repeat;
+    float:left;
+}
+/**教学资源 中间整体 底板*/
+.studySourceMid {
+	background-image:url(images/frame_bg_mid.png);
+	width:310px;
+	height:219px;
+    background-repeat:repeat-x;
+	float:left;
+}
+/**教学资源 右 底板*/
+.studySourceRight {
+	background-image:url(images/frame_bg_right.png);
+	width:26px;
+	height:219px;
+	background-repeat:no-repeat;
+	float:left;
+
+}
+/**教学资源 标题*/
+.titleStudySourceMid{
+	position:relative;
+	top:12px;
+	left:-14px;
+
+}
+/**教学资源 中间*/
+.contentStudySourceMid{
+	position:relative;
+	top:15px;
+	left:-15px;
+	width:350px;
+	height:169px;
+	overflow:hidden;
+
+}
+/**教学资源 图片*/
+.contentStudySourceMid img{
+    position:relative;
+	top:15px;
+	border:1px solid #d7d4d4;
+
+}
+
+.midMidHr{
+	background:#d7d4d4;
+    height:1px;
+	position:relative;
+	top:18px;
+	width:337px;
+	left:-16px;
+	
+}
+/**课程组成员 底板*/
+.midFootMain {
+	position:relative;
+	top:0px;
+	left:8px;
+	width:937px;
+	height:219px;
+}
+
+/**课程组成员 标题*/
+.midFootTitle{
+    position:relative;
+	top:12px;
+	left:12px;
+}
+/**课程组成员 轮播部分*/
+.midFootContent{
+    position:relative;
+	top:20px;
+	left:0px;
+	height:167px;
+	width:100%;
+}
+/**课程组成员 轮播部分 左侧*/
+.midFootContentLeft{
+	height:167px;
+	width:22px;
+	float:left;
+	background-repeat:no-repeat;
+	background-image:url(images/team_bg_left.png);
+}
+/**课程组成员 轮播部分 左箭头图片*/
+.midFootContentLeft img{
+	position:relative;
+	left:0px;
+	top:45px;
+}
+/**课程组成员 轮播部分 */
+.midFootContentMid{
+	height:167px;
+	width:893px;
+	float:left;
+	background-repeat:repeat-x;
+	background-image:url(images/team_bg_mid.png);
+}
+/**课程组成员 轮播部分 右侧*/
+.midFootContentRight{
+	height:167px;
+	width:22px;
+	float:left;
+	background-repeat:no-repeat;
+	background-image:url(images/team_bg_right.png);
+}
+/**课程组成员 轮播部分 右箭头图片*/
+ .midFootContentRight img{
+    position:relative;
+	left:9px;
+	top:45px;
+}
+/**课程组成员 轮播部分图片 */
+.midContentImg {
+	position:relative;
+	left:5px;
+	top:0px;
+	width:879px;
+	height:150px;
+	overflow:hidden;
+}
+
+.midContentImg ul{
+	list-style:none;
+	
+}
+
+.midContentImg ul li{
+	float:left;
+	display:inline;/**设置为行内元素 在一行显示*/
+	
+}
+ .midContentImg ul li img{
+    height:140px;
+	width:190px;
+}
+
+/**友情链接标题*/
+.friendShipTitle{
+	position:relative;
+	top:12px;
+	left:5px;
+	
+}
+
+.friendShipTitle img{
+	float:left;
+}
+
+.friendShipWords{
+	font-size:14px;
+	font-family:"微软雅黑";
+	float:left;
+}
+
+.friendShipConnection ul{
+	list-style:none;
+	
+}
+
+.friendShipConnection ul li{
+	float:left;
+	margin-top:4px;
+	margin-left:13px;
+}
+
+.friendShipConnection ul li a {
+    text-decoration:none;
+	font-size:12px;
+    font-family:"宋体";
+    color:#333;
+}
+
+.friendShipConnection ul li a:hover {
+	color:#ff000;
+	text-decoration:underline;
+}
